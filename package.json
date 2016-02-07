@@ -1,0 +1,24 @@
+{
+  "name": "phone-number-validation",
+  "version": "0.1.0",
+  "description": "Global Phone Number Validation &amp; Lookup JSON API. Real-time REST API supporting 232 countries",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pmoelgaard@github.com/pmoelgaard/phone-number-validation.git"
+  },
+  "keywords": [
+    "phone validation api",
+    "phone validation",
+    "phone lookup api"
+  ],
+  "author": "Peter Andreas Moelgaard <admin@petermolgard.com> (http://petermolgaard.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmoelgaard/phone-number-validation/issues"
+  },
+  "homepage": "https://github.com/pmoelgaard/phone-number-validation#readme"
+}
