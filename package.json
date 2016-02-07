@@ -1,7 +1,7 @@
 {
   "name": "phone-number-validation",
   "version": "0.1.0",
-  "description": "Global Phone Number Validation &amp; Lookup JSON API. Real-time REST API supporting 232 countries",
+  "description": "Global Phone Number Validation & Lookup JSON API. Real-time REST API supporting 232 countries",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
