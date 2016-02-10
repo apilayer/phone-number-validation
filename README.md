@@ -52,10 +52,11 @@ The phone-number-validation library supports either mode and use of either one i
 All endpoints in the public API is available through this library.
 
 - validate
+- countries
 
 ---
 
-## Validate
+## validate
 Takes an email  and checks the email against the API.
 
 ###### Define Query
@@ -86,6 +87,37 @@ Takes an email  and checks the email against the API.
   "location": "Novato",
   "carrier": "AT&T Mobility LLC",
   "line_type": "mobile"
+}
+```
+
+## countries
+Fetches all supported countries
+
+###### Simple Request (using Callback)
+
+	api.countries(function (err, result) {
+    	if (err) {
+        	return console.log('Countries Callback (Error): ' + JSON.stringify(err));
+    	}
+	    console.log('Countries Callback (Success): ' + JSON.stringify(result));
+	});
+    
+###### Response
+```
+{
+  "AF": {
+    "country_name": "Afghanistan",
+    "dialling_code": "+93"
+  },
+  "AL": {
+    "country_name": "Albania",
+    "dialling_code": "+355"
+  },
+  "DZ": {
+    "country_name": "Algeria",
+    "dialling_code": "+213"
+  },
+  ...
 }
 ```
 
