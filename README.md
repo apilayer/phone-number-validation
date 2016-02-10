@@ -1,5 +1,5 @@
 
-[![Travis](https://travis-ci.org/pmoelgaard/phone-number-validation.svg)](Travis)
+[![Travis](https://travis-ci.org/apilayer/phone-number-validation.svg)](Travis)
 
 Node JavaScript wrapper for [the numverify API](https://numverify.com/).
 
