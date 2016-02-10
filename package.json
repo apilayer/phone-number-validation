@@ -20,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/pmoelgaard/phone-number-validation/issues"
   },
-  "homepage": "https://github.com/pmoelgaard/phone-number-validation#readme"
+  "homepage": "https://github.com/pmoelgaard/phone-number-validation#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "lodash": "^4.0.1",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  },
+  "tonicExampleFilename": "example/preview.js"
 }
