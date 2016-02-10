@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://pmoelgaard@github.com/pmoelgaard/phone-number-validation.git"
+    "url": "git+https://github.com/apilayer/phone-number-validation.git"
   },
   "keywords": [
     "phone validation api",
@@ -18,9 +18,9 @@
   "author": "Peter Andreas Moelgaard <admin@petermolgard.com> (http://petermolgaard.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pmoelgaard/phone-number-validation/issues"
+    "url": "https://github.com/apilayer/phone-number-validation/issues"
   },
-  "homepage": "https://github.com/pmoelgaard/phone-number-validation#readme",
+  "homepage": "https://github.com/apilayer/phone-number-validation#readme",
   "devDependencies": {
     "mocha": "^2.3.4",
     "chai": "^3.4.1",
