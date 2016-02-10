@@ -1,13 +1,14 @@
 'use strict';
 
-var _ = require('lodash');
+var utils = require('../lib/utils');
 
 var API = {};
 
+API.countries = require('./countries');
 API.validate = require('./validate');
 
 API.get = function (name) {
-    var api = _.get(this, name);
+    var api = utils.get(this, name);
     return api;
 };
 

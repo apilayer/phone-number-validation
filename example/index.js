@@ -8,14 +8,21 @@ var api = new API({
 });
 
 var number = '14158586273';
-
 var validateQuery = {
     number: number
 };
-
 api.validate(validateQuery, function (err, result) {
     if (err) {
         return console.log('Validate Callback (Error): ' + JSON.stringify(err));
     }
     console.log('Validate Callback (Success): '+ JSON.stringify(result));
+});
+
+var countriesQuery = {
+};
+api.countries(countriesQuery, function (err, result) {
+    if (err) {
+        return console.log('Countries Callback (Error): ' + JSON.stringify(err));
+    }
+    console.log('Countries Callback (Success): '+ JSON.stringify(result));
 });
